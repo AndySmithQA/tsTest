@@ -8,6 +8,8 @@ import CheckoutPage from './pages/CheckoutPage'
 
 function App() {
   const [itemsData, setItemsData] = useState([])
+  
+  
 
   useEffect(() => {
     fetch('https://seed-theory-api.netlify.app/data.json')
@@ -18,7 +20,7 @@ function App() {
   return (
     <CartProvider itemsData={itemsData}>
       <BrowserRouter>
-        <Navbar />
+        <Navbar  />
         <main>
           <Routes>
             <Route path="/" element={<HomePage />} />

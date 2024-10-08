@@ -8,9 +8,9 @@ interface ItemCardProps {
   price: number;
   imageUrl: string;
 }
-
+ 
 const ItemCard: React.FC<ItemCardProps> = ({ id, name, price, imageUrl }) => {
-  const { isItemInCart, addItem, removeItem } = useContext(CartContext)
+ const { isItemInCart, addItem, removeItem } = useContext(CartContext)
 
   const isInCart = isItemInCart(id)
   const addToCart = () => addItem(id)

@@ -15,6 +15,10 @@ const CheckoutPage = () => {
     navigate('/')
 }
 
+  const handleClearCart = () => {
+    itemIds.forEach(id => removeItem(id));
+  }
+
 
   return (
     <div>
@@ -34,6 +38,12 @@ const CheckoutPage = () => {
       {!isCartEmpty && (
         <button onClick={handleCheckout} className={styles['checkout-button']}>
           Checkout
+        </button>
+      )} 
+      <hr></hr>
+      {!isCartEmpty && (
+        <button onClick={handleClearCart} className={styles['checkout-button']}>
+          Clear Cart
         </button>
       )}
     </div>
