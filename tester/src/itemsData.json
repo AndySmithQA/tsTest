@@ -1,0 +1,14 @@
+[
+	{
+		"id": 1,
+		"symbol": "1",
+		"name": "Digit One",
+		"UnicodeVal": "\u0031;"
+	},
+    {
+        "id": 2,
+        "symbol": "2",
+        "name": "Digit Two",
+        "UnicodeVal": "\u0032;"
+    }
+]
