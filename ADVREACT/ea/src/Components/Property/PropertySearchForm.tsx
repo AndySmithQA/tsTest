@@ -40,12 +40,6 @@ const PropertySearchForm = (props: PropertySearchFormProps) => {
             gardenRef.current.value = "0";
             priceRef.current.value = "0";
         }
-        if (gardenRef.current) {
-            gardenRef.current.value = "0";
-        }
-        if (priceRef.current) {
-            priceRef.current.value = "0";
-        }
     };
 
     const doReset = () => {

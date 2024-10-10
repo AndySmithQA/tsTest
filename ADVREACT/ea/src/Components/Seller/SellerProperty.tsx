@@ -96,7 +96,7 @@ const SellerProperty = () => {
                 return response.json();
             }
         })
-        .then((newProperty) => {
+        .then(() => {
             dispatch({type: "REMOVE", payload: propertyToUpdate});
             dispatch({type: "ADD", payload: updatedProperty});
             setSaving(false);
