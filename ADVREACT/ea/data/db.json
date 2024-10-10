@@ -97,18 +97,6 @@
       "buyerId": 3
     },
     {
-      "address": "2 Welsh Street, Ebbw Vale",
-      "postcode": "TR1 1GA",
-      "type": "DETACHED",
-      "price": 125000,
-      "bedroom": 1,
-      "bathroom": 1,
-      "garden": 1,
-      "sellerId": 3,
-      "status": "FOR SALE",
-      "id": "3"
-    },
-    {
       "address": "8 Hilltop, Ebbw Vale",
       "postcode": "EB1 2VA",
       "type": "DETACHED",
@@ -119,6 +107,18 @@
       "sellerId": 4,
       "status": "SOLD",
       "id": "4"
+    },
+    {
+      "address": "107 Fairway",
+      "postcode": "NR85HE",
+      "type": "SEMI",
+      "price": 234567,
+      "bedrooms": 1,
+      "bathrooms": 1,
+      "garden": "true",
+      "sellerId": "1",
+      "status": "FORSALE",
+      "id": "o6suYCb"
     }
   ],
   "buyer": [
@@ -149,13 +149,13 @@
   ],
   "booking": [
     {
-      "buyerId": 1,
-      "propertyId": 2,
+      "buyerId": "1",
+      "propertyId": "2",
       "time": "2023-02-28T08:00:00.038Z",
       "id": "2"
     },
     {
-      "propertyId": 1,
+      "propertyId": "1",
       "time": "2023-03-02T08:00:00.000Z",
       "id": "3"
     }

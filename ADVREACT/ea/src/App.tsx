@@ -7,6 +7,7 @@ import Seller from "./Components/Seller/Seller";
 import SellerProperty from "./Components/Seller/SellerProperty";
 import Buyer from "./Components/Buyer/Buyer";
 import NoPage from "./NoPage";
+import Booking from "./Components/Booking/Booking";
 
 function App() {
 
@@ -21,6 +22,7 @@ function App() {
             <Route path="seller" element={<Seller />}></Route>
             <Route path="seller/:sellerId/property" element={<SellerProperty />}></Route>
             <Route path="buyer" element={<Buyer/>}/>
+            <Route path="property/:propertyId/booking" element={<Booking/>}/>
             <Route path="*" element={<NoPage/>}/>
             </Route>
         </Routes>
